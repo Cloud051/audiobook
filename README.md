@@ -11,7 +11,7 @@ A simple Text-to-Speech program to read PDFs
 
 ## What I learnt
 
-I learned that there is a bug when you try using the methods: ```.say()``` and ```.runAndWait()``` can break the TTS when you separate the PDF's text into chunks. I struggled **2 hours** trying to solve it and had to change the entire code 3 times.
+I learned that there is a bug related to **SAPI5 driver** when you try using the methods ```.say()``` and ```.runAndWait()``` inside a rapid loop triggers a driver bug that breaks the text-to-speech. I struggled **2 hours** trying to solve it and had to change the entire code 3 times.
 
 ## Learning Material
 
